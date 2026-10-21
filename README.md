@@ -2,6 +2,14 @@
 
 Jogo 2D de plataforma e exploração com magia e trollagem. Feito com **Phaser 3 + TypeScript + Vite**.
 
+🎮 **Jogue agora:** https://weskleyalmeida.github.io/magic-troll/
+
+## Deploy
+
+Cada `push` na branch `main` publica o jogo automaticamente no GitHub Pages
+(workflow em `.github/workflows/deploy.yml`: `npm ci` → `npm run build` → publica `dist/`).
+Acompanhe em **Actions** no GitHub.
+
 ## Rodando
 
 Requer [Node.js](https://nodejs.org/) 18+.
